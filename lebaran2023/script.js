@@ -114,7 +114,7 @@ let perhitungan = ()=> {
     awal[0].style.display = "none"
     akhir[0].style.display = "block"
     lopPesan()
-  }else if(hari_a < 1 || jam_a > 1 && menit_a > 1 && detik_a > 1){
+  }else if(hari_a < 1){
     rangeBar.style.width = `99%`
     rangeBar.innerText = `99%`
     ketHari.innerText = 'h-29'

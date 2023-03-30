@@ -72,6 +72,7 @@ let perhitungan = ()=> {
   ketHari.innerText = `h-${30 - hari_a}`
   imgRun.style.left = `${(hari_fix /30)*100 - jarakImg}%`
   //console.log(Math.floor(( hari_fix / 30))*100)
+  hari_fix--
   if (parseInt(pesan[0].getAttribute("data-hari")) <= hari_fix) {
     pesan[0].classList.add("animPesan")
     penutupC[0].style.display = "none"

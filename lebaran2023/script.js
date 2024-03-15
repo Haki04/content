@@ -12,7 +12,7 @@ const bgInput = document.getElementById("bgInput")
 const awal = document.getElementsByClassName("awal")
 const akhir = document.getElementsByClassName("akhir")
 
-const waktuTujuan = new Date("April 21, 2023 06:00:00").getTime()
+const waktuTujuan = new Date("April 10, 2024 06:00:00").getTime()
 let perhitungan = ()=> {
   let waktuSekarang = new Date().getTime()
   const waktuSet = waktuTujuan - waktuSekarang
